@@ -23,6 +23,12 @@
 - (void)printJHIMComponet {
     NSLog(@"printJHIMComponet*****");
 }
+
+- (void)showLastAction{
+    NSLog(@"---FLDateSelectView---");
+
+}
+
 /*
 #pragma mark - Navigation
 

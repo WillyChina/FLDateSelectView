@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface FLDateVC : UIViewController
 
 - (void)printJHIMComponet;
+- (void)showLastAction;
+
 @end
 
 NS_ASSUME_NONNULL_END
