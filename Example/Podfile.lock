@@ -1,0 +1,16 @@
+PODS:
+  - FLDateSelectView (0.1.0)
+
+DEPENDENCIES:
+  - FLDateSelectView (from `../`)
+
+EXTERNAL SOURCES:
+  FLDateSelectView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FLDateSelectView: 8630621773145c928fb3b308bf144d5c2b2a7b50
+
+PODFILE CHECKSUM: 115ea1e2ad56bb617981776ef8bb66dd6c5ac68b
+
+COCOAPODS: 1.11.3

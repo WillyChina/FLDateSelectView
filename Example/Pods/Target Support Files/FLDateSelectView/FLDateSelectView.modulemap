@@ -1,0 +1,6 @@
+framework module FLDateSelectView {
+  umbrella header "FLDateSelectView-umbrella.h"
+
+  export *
+  module * { export * }
+}

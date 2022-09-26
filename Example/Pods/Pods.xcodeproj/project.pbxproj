@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13DF51C692371B67B06E5E5EC97CB9E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3308E4BF2925BFEF98B3DA095A629A8C /* Pods-FLDateSelectView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C815CFF96577A16CAD13AC6531568A56 /* Pods-FLDateSelectView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ED2BEF7B831188BAF4159513391DD18 /* FLDateSelectView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2913E12180D6D3AD58342FC6587D64A /* FLDateSelectView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C36833518ADFF26B6D00B1BFEF27F82 /* Pods-FLDateSelectView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F94F8846766BCCEEFA8096DB298AF0E8 /* Pods-FLDateSelectView_Tests-dummy.m */; };
+		7538B7139E9750B8DDA5494B81E68B06 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2D6F2AB8053A791BAD09E275AC9248 /* ReplaceMe.m */; };
+		8D8DD4BA30BFB5E0A57702DF952EAE6B /* Pods-FLDateSelectView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E420352F1C9B46D75B1F1A490BF4E712 /* Pods-FLDateSelectView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1CB934749066AC6C26B18B4394B2D87 /* Pods-FLDateSelectView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F45784AEE4FD5C1CE522474B013E6B4 /* Pods-FLDateSelectView_Example-dummy.m */; };
+		AD8F207933B974C48111ADE559F8981F /* FLDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 225128AEA41C5296CA8223457B89DC1C /* FLDateVC.m */; };
+		CE41A99A3337B88CB2AAF81EA8FFDAB7 /* FLDateSelectView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F0E0168471C1E51B8F48BC45D5AB49 /* FLDateSelectView-dummy.m */; };
+		CE605ED7312785218165E0F514FE3581 /* FLDateVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC25A8FD57056DF1829A7004B7C891E /* FLDateVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDC78EE20087BD53A912A1CD7E6A9664 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EE7A02D9CE7B65FB60959957A66E2DC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		432FD86068EF8904F6C89A5921E7582C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A1C87D1143EC21757F8202689A5F16;
+			remoteInfo = "Pods-FLDateSelectView_Example";
+		};
+		CBBB066006A93E2D466BAB4E528DEA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFC5F356381D2FB3442AE642B0239754;
+			remoteInfo = FLDateSelectView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F0E0168471C1E51B8F48BC45D5AB49 /* FLDateSelectView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLDateSelectView-dummy.m"; sourceTree = "<group>"; };
+		02D432D6A990611EAABB4C05F3E17536 /* FLDateSelectView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLDateSelectView.debug.xcconfig; sourceTree = "<group>"; };
+		07AC32CFE3694CCD9C18A7CC333371EC /* Pods-FLDateSelectView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLDateSelectView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FC25A8FD57056DF1829A7004B7C891E /* FLDateVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLDateVC.h; path = FLDateSelectView/Classes/FLDateVC.h; sourceTree = "<group>"; };
+		14EF8FC6AFBB02A092513AC982280878 /* FLDateSelectView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLDateSelectView.modulemap; sourceTree = "<group>"; };
+		217FEA06371AB3F3BFCEBDD4B0F5A6A0 /* Pods-FLDateSelectView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLDateSelectView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		225128AEA41C5296CA8223457B89DC1C /* FLDateVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLDateVC.m; path = FLDateSelectView/Classes/FLDateVC.m; sourceTree = "<group>"; };
+		237951ED0B22315B9679AC6687BD7EED /* Pods-FLDateSelectView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FLDateSelectView_Tests"; path = Pods_FLDateSelectView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CA71D33D2A71150206E83BF03B4C3C /* FLDateSelectView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLDateSelectView-prefix.pch"; sourceTree = "<group>"; };
+		3712238E7C23E5D92412C059A81ECA7C /* Pods-FLDateSelectView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLDateSelectView_Tests.modulemap"; sourceTree = "<group>"; };
+		38C85F962E79F01A600F095A860FF1E2 /* FLDateSelectView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLDateSelectView-Info.plist"; sourceTree = "<group>"; };
+		44BF414B63633323C1C45DB68670F123 /* FLDateSelectView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FLDateSelectView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4ACE9F0768EC2F1F401BA83E496CD66E /* Pods-FLDateSelectView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLDateSelectView_Example.modulemap"; sourceTree = "<group>"; };
+		4C64C3CBCF5D0F93CFCE409BFF59C5B2 /* Pods-FLDateSelectView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLDateSelectView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		518373561125024C2662A7C4118817DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		57C6F62DE6DAC960A5C7A95933A480CF /* Pods-FLDateSelectView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLDateSelectView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		710B06969E102FA3463C25F2F3595457 /* Pods-FLDateSelectView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FLDateSelectView_Example"; path = Pods_FLDateSelectView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74ACBBF9661074E32D0B6AB3AD1F4297 /* Pods-FLDateSelectView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLDateSelectView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EF0BAFB539E984DE9F2AFCA44580652 /* Pods-FLDateSelectView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLDateSelectView_Example-Info.plist"; sourceTree = "<group>"; };
+		9A995D191BD5C4A84E47A2022301FD93 /* FLDateSelectView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLDateSelectView.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D98EF4767D80676645B52F888F79621 /* Pods-FLDateSelectView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLDateSelectView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9F45784AEE4FD5C1CE522474B013E6B4 /* Pods-FLDateSelectView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLDateSelectView_Example-dummy.m"; sourceTree = "<group>"; };
+		AD2D6F2AB8053A791BAD09E275AC9248 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FLDateSelectView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		B1EAFA9B0D4352B899E8D4CD521D2E40 /* Pods-FLDateSelectView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLDateSelectView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B2913E12180D6D3AD58342FC6587D64A /* FLDateSelectView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLDateSelectView-umbrella.h"; sourceTree = "<group>"; };
+		C04CA0DCF5D4A5B99118C9ACB6B2604C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C815CFF96577A16CAD13AC6531568A56 /* Pods-FLDateSelectView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLDateSelectView_Example-umbrella.h"; sourceTree = "<group>"; };
+		CFD07792EFD6E79E20C2668049EBACB5 /* FLDateSelectView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLDateSelectView; path = FLDateSelectView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B8F6F405D122B43A0E96F128D32DFC /* Pods-FLDateSelectView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLDateSelectView_Tests-Info.plist"; sourceTree = "<group>"; };
+		D31C166B7E73C3C3C2AB0A9237DFC8D7 /* Pods-FLDateSelectView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLDateSelectView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D7EA703F24C98F407175CBDCC5C2B962 /* Pods-FLDateSelectView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLDateSelectView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E420352F1C9B46D75B1F1A490BF4E712 /* Pods-FLDateSelectView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLDateSelectView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F94F8846766BCCEEFA8096DB298AF0E8 /* Pods-FLDateSelectView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLDateSelectView_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		336A31FAB05EE94F7393410841FEB24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DF51C692371B67B06E5E5EC97CB9E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C984A032281FC6AFB12D1904CC598A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC78EE20087BD53A912A1CD7E6A9664 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F84918F7DFEE48A6981C896FF493CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7A02D9CE7B65FB60959957A66E2DC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E0749CA753A83C0FAB8F82337ADF7EE /* Pods-FLDateSelectView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3712238E7C23E5D92412C059A81ECA7C /* Pods-FLDateSelectView_Tests.modulemap */,
+				74ACBBF9661074E32D0B6AB3AD1F4297 /* Pods-FLDateSelectView_Tests-acknowledgements.markdown */,
+				57C6F62DE6DAC960A5C7A95933A480CF /* Pods-FLDateSelectView_Tests-acknowledgements.plist */,
+				F94F8846766BCCEEFA8096DB298AF0E8 /* Pods-FLDateSelectView_Tests-dummy.m */,
+				D0B8F6F405D122B43A0E96F128D32DFC /* Pods-FLDateSelectView_Tests-Info.plist */,
+				E420352F1C9B46D75B1F1A490BF4E712 /* Pods-FLDateSelectView_Tests-umbrella.h */,
+				D7EA703F24C98F407175CBDCC5C2B962 /* Pods-FLDateSelectView_Tests.debug.xcconfig */,
+				217FEA06371AB3F3BFCEBDD4B0F5A6A0 /* Pods-FLDateSelectView_Tests.release.xcconfig */,
+			);
+			name = "Pods-FLDateSelectView_Tests";
+			path = "Target Support Files/Pods-FLDateSelectView_Tests";
+			sourceTree = "<group>";
+		};
+		388BC02DBC64A3C69FA3367C9B07672C /* FLDateSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				0FC25A8FD57056DF1829A7004B7C891E /* FLDateVC.h */,
+				225128AEA41C5296CA8223457B89DC1C /* FLDateVC.m */,
+				AD2D6F2AB8053A791BAD09E275AC9248 /* ReplaceMe.m */,
+				5CA308F7BB43A4F84F8E679509DF0F41 /* Pod */,
+				63DB2C23B7E0C28523D6B1164FFEE850 /* Support Files */,
+			);
+			name = FLDateSelectView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4E55A451D83663A8A38013704210B7AF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5760E8CA466A3AC965765D55DE20ABB4 /* Pods-FLDateSelectView_Example */,
+				0E0749CA753A83C0FAB8F82337ADF7EE /* Pods-FLDateSelectView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5760E8CA466A3AC965765D55DE20ABB4 /* Pods-FLDateSelectView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4ACE9F0768EC2F1F401BA83E496CD66E /* Pods-FLDateSelectView_Example.modulemap */,
+				07AC32CFE3694CCD9C18A7CC333371EC /* Pods-FLDateSelectView_Example-acknowledgements.markdown */,
+				4C64C3CBCF5D0F93CFCE409BFF59C5B2 /* Pods-FLDateSelectView_Example-acknowledgements.plist */,
+				9F45784AEE4FD5C1CE522474B013E6B4 /* Pods-FLDateSelectView_Example-dummy.m */,
+				9D98EF4767D80676645B52F888F79621 /* Pods-FLDateSelectView_Example-frameworks.sh */,
+				7EF0BAFB539E984DE9F2AFCA44580652 /* Pods-FLDateSelectView_Example-Info.plist */,
+				C815CFF96577A16CAD13AC6531568A56 /* Pods-FLDateSelectView_Example-umbrella.h */,
+				D31C166B7E73C3C3C2AB0A9237DFC8D7 /* Pods-FLDateSelectView_Example.debug.xcconfig */,
+				B1EAFA9B0D4352B899E8D4CD521D2E40 /* Pods-FLDateSelectView_Example.release.xcconfig */,
+			);
+			name = "Pods-FLDateSelectView_Example";
+			path = "Target Support Files/Pods-FLDateSelectView_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CA308F7BB43A4F84F8E679509DF0F41 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				44BF414B63633323C1C45DB68670F123 /* FLDateSelectView.podspec */,
+				518373561125024C2662A7C4118817DE /* LICENSE */,
+				C04CA0DCF5D4A5B99118C9ACB6B2604C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		63DB2C23B7E0C28523D6B1164FFEE850 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14EF8FC6AFBB02A092513AC982280878 /* FLDateSelectView.modulemap */,
+				01F0E0168471C1E51B8F48BC45D5AB49 /* FLDateSelectView-dummy.m */,
+				38C85F962E79F01A600F095A860FF1E2 /* FLDateSelectView-Info.plist */,
+				36CA71D33D2A71150206E83BF03B4C3C /* FLDateSelectView-prefix.pch */,
+				B2913E12180D6D3AD58342FC6587D64A /* FLDateSelectView-umbrella.h */,
+				02D432D6A990611EAABB4C05F3E17536 /* FLDateSelectView.debug.xcconfig */,
+				9A995D191BD5C4A84E47A2022301FD93 /* FLDateSelectView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FLDateSelectView";
+			sourceTree = "<group>";
+		};
+		847E29009C7826FA6D04AE987A0E6F73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD07792EFD6E79E20C2668049EBACB5 /* FLDateSelectView */,
+				710B06969E102FA3463C25F2F3595457 /* Pods-FLDateSelectView_Example */,
+				237951ED0B22315B9679AC6687BD7EED /* Pods-FLDateSelectView_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B632B28C10BBB0944B396D3F0C7ADA21 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				388BC02DBC64A3C69FA3367C9B07672C /* FLDateSelectView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B632B28C10BBB0944B396D3F0C7ADA21 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				847E29009C7826FA6D04AE987A0E6F73 /* Products */,
+				4E55A451D83663A8A38013704210B7AF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		35B2E72150E26AD903CFA454B3D82340 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3308E4BF2925BFEF98B3DA095A629A8C /* Pods-FLDateSelectView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC927FD7C1017171A973C2649803CE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED2BEF7B831188BAF4159513391DD18 /* FLDateSelectView-umbrella.h in Headers */,
+				CE605ED7312785218165E0F514FE3581 /* FLDateVC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F439E221AB78AF71711A5F73DCC06D18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8DD4BA30BFB5E0A57702DF952EAE6B /* Pods-FLDateSelectView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		30A1C87D1143EC21757F8202689A5F16 /* Pods-FLDateSelectView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06D1AA75D974FB5ACE2D369A9DC851F /* Build configuration list for PBXNativeTarget "Pods-FLDateSelectView_Example" */;
+			buildPhases = (
+				35B2E72150E26AD903CFA454B3D82340 /* Headers */,
+				174620839F682E5BCDD2B82AEC99265D /* Sources */,
+				5C984A032281FC6AFB12D1904CC598A1 /* Frameworks */,
+				A5C6D0933B43CC6F3A4078A498BF71CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87D5C7E1D25F244EE5ED7117D47E5102 /* PBXTargetDependency */,
+			);
+			name = "Pods-FLDateSelectView_Example";
+			productName = Pods_FLDateSelectView_Example;
+			productReference = 710B06969E102FA3463C25F2F3595457 /* Pods-FLDateSelectView_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E5F6D6F575E13D4DFEF85E978DAA6E /* Pods-FLDateSelectView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF07FBC454B144415BC3A8A79E976A5 /* Build configuration list for PBXNativeTarget "Pods-FLDateSelectView_Tests" */;
+			buildPhases = (
+				F439E221AB78AF71711A5F73DCC06D18 /* Headers */,
+				8FB3A4E9C77E49FADD04D7C1982C65FC /* Sources */,
+				336A31FAB05EE94F7393410841FEB24E /* Frameworks */,
+				01232CCFF98EC62EEFBD8E3CA3D3FB6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456EAA61346858DC9A9AD353944DFA0D /* PBXTargetDependency */,
+			);
+			name = "Pods-FLDateSelectView_Tests";
+			productName = Pods_FLDateSelectView_Tests;
+			productReference = 237951ED0B22315B9679AC6687BD7EED /* Pods-FLDateSelectView_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFC5F356381D2FB3442AE642B0239754 /* FLDateSelectView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC0B488A8AFD8D9DA31428BD3C1B66C /* Build configuration list for PBXNativeTarget "FLDateSelectView" */;
+			buildPhases = (
+				4BC927FD7C1017171A973C2649803CE6 /* Headers */,
+				AE01010E6E8D39365CEE892FC174EE0A /* Sources */,
+				60F84918F7DFEE48A6981C896FF493CC /* Frameworks */,
+				A1463C474957166CEE2531FDE158D3CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLDateSelectView;
+			productName = FLDateSelectView;
+			productReference = CFD07792EFD6E79E20C2668049EBACB5 /* FLDateSelectView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 847E29009C7826FA6D04AE987A0E6F73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC5F356381D2FB3442AE642B0239754 /* FLDateSelectView */,
+				30A1C87D1143EC21757F8202689A5F16 /* Pods-FLDateSelectView_Example */,
+				88E5F6D6F575E13D4DFEF85E978DAA6E /* Pods-FLDateSelectView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01232CCFF98EC62EEFBD8E3CA3D3FB6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1463C474957166CEE2531FDE158D3CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C6D0933B43CC6F3A4078A498BF71CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		174620839F682E5BCDD2B82AEC99265D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CB934749066AC6C26B18B4394B2D87 /* Pods-FLDateSelectView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB3A4E9C77E49FADD04D7C1982C65FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C36833518ADFF26B6D00B1BFEF27F82 /* Pods-FLDateSelectView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE01010E6E8D39365CEE892FC174EE0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE41A99A3337B88CB2AAF81EA8FFDAB7 /* FLDateSelectView-dummy.m in Sources */,
+				AD8F207933B974C48111ADE559F8981F /* FLDateVC.m in Sources */,
+				7538B7139E9750B8DDA5494B81E68B06 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		456EAA61346858DC9A9AD353944DFA0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FLDateSelectView_Example";
+			target = 30A1C87D1143EC21757F8202689A5F16 /* Pods-FLDateSelectView_Example */;
+			targetProxy = 432FD86068EF8904F6C89A5921E7582C /* PBXContainerItemProxy */;
+		};
+		87D5C7E1D25F244EE5ED7117D47E5102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLDateSelectView;
+			target = BFC5F356381D2FB3442AE642B0239754 /* FLDateSelectView */;
+			targetProxy = CBBB066006A93E2D466BAB4E528DEA46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001468945D3902B6A4E4FC564C4195EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1EAFA9B0D4352B899E8D4CD521D2E40 /* Pods-FLDateSelectView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLDateSelectView_Example/Pods-FLDateSelectView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLDateSelectView_Example/Pods-FLDateSelectView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69A6700297750176E16B8881E153A06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7EA703F24C98F407175CBDCC5C2B962 /* Pods-FLDateSelectView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLDateSelectView_Tests/Pods-FLDateSelectView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLDateSelectView_Tests/Pods-FLDateSelectView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A9FCC0BF5E6AF01B60B98CC5E70BA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217FEA06371AB3F3BFCEBDD4B0F5A6A0 /* Pods-FLDateSelectView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLDateSelectView_Tests/Pods-FLDateSelectView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLDateSelectView_Tests/Pods-FLDateSelectView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71B9FD08650FE8E6A533E9C84A0F4D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D432D6A990611EAABB4C05F3E17536 /* FLDateSelectView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLDateSelectView/FLDateSelectView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLDateSelectView/FLDateSelectView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLDateSelectView/FLDateSelectView.modulemap";
+				PRODUCT_MODULE_NAME = FLDateSelectView;
+				PRODUCT_NAME = FLDateSelectView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		97B3EFBC97AC51BB415CB5FB17F91998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31C166B7E73C3C3C2AB0A9237DFC8D7 /* Pods-FLDateSelectView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLDateSelectView_Example/Pods-FLDateSelectView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLDateSelectView_Example/Pods-FLDateSelectView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A55EC205F23ECFAC88982C73C17002A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A995D191BD5C4A84E47A2022301FD93 /* FLDateSelectView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLDateSelectView/FLDateSelectView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLDateSelectView/FLDateSelectView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLDateSelectView/FLDateSelectView.modulemap";
+				PRODUCT_MODULE_NAME = FLDateSelectView;
+				PRODUCT_NAME = FLDateSelectView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DC0B488A8AFD8D9DA31428BD3C1B66C /* Build configuration list for PBXNativeTarget "FLDateSelectView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B9FD08650FE8E6A533E9C84A0F4D37 /* Debug */,
+				9A55EC205F23ECFAC88982C73C17002A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06D1AA75D974FB5ACE2D369A9DC851F /* Build configuration list for PBXNativeTarget "Pods-FLDateSelectView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B3EFBC97AC51BB415CB5FB17F91998 /* Debug */,
+				001468945D3902B6A4E4FC564C4195EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF07FBC454B144415BC3A8A79E976A5 /* Build configuration list for PBXNativeTarget "Pods-FLDateSelectView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A6700297750176E16B8881E153A06E /* Debug */,
+				6A9FCC0BF5E6AF01B60B98CC5E70BA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

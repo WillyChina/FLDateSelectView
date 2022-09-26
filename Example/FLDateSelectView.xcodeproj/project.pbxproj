@@ -64,9 +64,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D11EE6E9690D566CD3D9F10B /* FLDateSelectView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FLDateSelectView.podspec; path = ../FLDateSelectView.podspec; sourceTree = "<group>"; };
-		D7A32AD235C8D774654EF855 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FF2444F7E9F6B7BB5B8F711D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D11EE6E9690D566CD3D9F10B /* FLDateSelectView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FLDateSelectView.podspec; path = ../FLDateSelectView.podspec; sourceTree = "<group>"; };
+		D7A32AD235C8D774654EF855 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FF2444F7E9F6B7BB5B8F711D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				00FD128D5F8CE9BE4B20DBF2 /* Pods-FLDateSelectView_Tests.debug.xcconfig */,
 				25380CB4939277CB990A985F /* Pods-FLDateSelectView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
